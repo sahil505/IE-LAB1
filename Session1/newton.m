@@ -1,7 +1,7 @@
 % coded by SAHIL KHOKHAR (2015ME20758)
 function equationRoot = newton(f,g,xo,tol)
 
-%nagin gives number of function input argument 
+%nargin gives number of function input argument 
 if (nargin == 4)
     Iteration = 0;
     fprintf('Iteration No.\t   xo\t\t   x1\t\t\tf(x)\t\t\tg(x)\n');

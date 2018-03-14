@@ -1,3 +1,5 @@
+% coded by SAHIL KHOKHAR (2015ME20758)
+clc;close all;clear all;
 tol=0.000001;
 n=0;
 x=[1; 1];

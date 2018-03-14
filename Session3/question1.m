@@ -1,3 +1,5 @@
+% coded by SAHIL KHOKHAR (2015ME20758)
+clc;close all;clear all;
 tol = 0.00000001;
 y = zeros(3,1);
 x0 = [1;1;1];

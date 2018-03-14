@@ -1,4 +1,5 @@
 % coded by SAHIL KHOKHAR (2015ME20758)
+% Find at least 3 roots. Initial guesses through bisection search (tol ~ 0.5/1)
 clc;close all;clear all;
 a=-2; b=2;
 % NOTE for complex roots take a=-1-i; b=1+i;
@@ -21,5 +22,5 @@ else
     end
 end
 fprintf('The answer is %f\n', c);
-% calling the newton method after finding the value of the c
-newton(@(x)7*x^5 + 3*x^3 + 21*x^2 + 10*x + 4, @(x)30*x^4 + 9*x^2 + 42*x + 10, c, 0.00000001)
+% calling the newton method after finding the value of the c (or the root)
+newton(@(x)7*x^5 + 3*x^3 + 21*x^2 + 10*x + 4, @(x)35*x^4 + 9*x^2 + 42*x + 10, c, 0.00000001)
